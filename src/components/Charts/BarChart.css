@@ -1,0 +1,12 @@
+.bar-chart-card{
+margin-top:40px;
+background:var(--card-bg);
+padding:30px;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.06);
+}
+
+.bar-chart-card h2{
+margin-bottom:20px;
+color:var(--text-color);
+}
