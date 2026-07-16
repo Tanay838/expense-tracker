@@ -171,14 +171,16 @@ useEffect(() => {
   />
 
   <PieChart
-    income={income}
-    expense={expense}
-  />
+  income={income}
+  expense={expense}
+  darkMode={darkMode}
+/>
 
 </AnalyticsSection>
 
 <BarChart
   transactions={transactions}
+  darkMode={darkMode}
 />
 
 

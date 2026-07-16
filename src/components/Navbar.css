@@ -5,8 +5,8 @@
   z-index: 1000;
 
   width: 100%;
-  background: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
+   background: var(--card-bg);
+  border-bottom: 1px solid var(--border-color);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -50,14 +50,14 @@
 .logo h2 {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #111827;
+  color: var(--text-color);
   margin: 0;
 }
 
 .logo p {
   margin-top: 3px;
   font-size: 0.85rem;
-  color: #6b7280;
+  color: var(--secondary-text);
 }
 
 /* Theme Button */
@@ -72,7 +72,8 @@
   border: none;
   border-radius: 12px;
 
-  background: #f3f4f6;
+   background: var(--hover-bg);
+  color: var(--text-color);
   cursor: pointer;
 
   font-size: 20px;

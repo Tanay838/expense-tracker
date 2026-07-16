@@ -1,12 +1,24 @@
-.bar-chart-card{
-margin-top:40px;
-background:var(--card-bg);
-padding:30px;
-border-radius:20px;
-box-shadow:0 8px 20px rgba(0,0,0,.06);
+.bar-chart-card {
+  background: var(--card-bg);
+  color: var(--text-color);
+  padding: 24px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  margin-top: 25px;
+  transition: all .3s ease;
 }
 
-.bar-chart-card h2{
-margin-bottom:20px;
-color:var(--text-color);
+.bar-chart-card:hover {
+  transform: translateY(-4px);
+}
+
+.bar-chart-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.bar-chart-container {
+  height: 420px;
 }

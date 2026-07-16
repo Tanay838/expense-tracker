@@ -1,6 +1,7 @@
 import "./Navbar.css";
 
 function Navbar({ darkMode, setDarkMode }) {
+  
   return (
     <nav className="navbar">
       <div className="navbar-content">
